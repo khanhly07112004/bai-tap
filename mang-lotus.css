@@ -1,0 +1,31 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    width: 560px;
+    height: 120px;
+    line-height: 120px
+    text-align: center;
+  }
+  .tr:nth-child(even) {
+    background-color: #dddddd;
+  }  
+  ul {
+    a:link {
+  color: rgba(190, 103, 183, 0.689);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+    color: rgb(228, 228, 19);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  }
